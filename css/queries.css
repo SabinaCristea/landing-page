@@ -1,0 +1,413 @@
+/* SMALLER DESKTOPS */
+
+@media (max-width: 93em) {
+  /* HEADER */
+
+  .logo {
+    margin-bottom: 5rem;
+    padding-left: 3rem;
+  }
+
+  /* HERO SECTION */
+
+  .hero {
+    padding-left: 3rem;
+    padding-bottom: 5rem;
+  }
+
+  .hero-heading {
+    font-size: 3.5rem;
+    margin-bottom: 6rem;
+  }
+
+  .hero-description {
+    font-size: 2rem;
+
+    margin-bottom: 5.5rem;
+  }
+
+  .hero-img-coins-bg {
+    width: auto;
+    height: 120%;
+  }
+
+  .hero-img-coins {
+    width: auto;
+    height: 100%;
+
+    right: 5rem;
+    bottom: 6.5rem;
+  }
+
+  /* SECTION MARKET OBSERVATIONS */
+
+  .market-observations-description {
+    padding-left: 3rem;
+  }
+}
+
+/* SMALL LAPTOP */
+
+@media (max-width: 76em) {
+  /* HERO SECTION */
+
+  .hero {
+    padding-bottom: 3rem;
+  }
+
+  .hero-heading {
+    font-size: 3rem;
+    margin-bottom: 4rem;
+  }
+
+  .hero-description {
+    font-size: 1.8rem;
+
+    margin-bottom: 4rem;
+
+    max-width: 50rem;
+  }
+
+  .hero-img-coins-bg {
+    width: auto;
+    height: 110%;
+  }
+
+  .hero-img-coins {
+    width: auto;
+    height: 90%;
+
+    right: 4rem;
+    bottom: 5.5rem;
+  }
+
+  /* SECTION MARKET OBSERVATIONS */
+
+  .market-observations-description {
+    width: 100%;
+    text-align: center;
+    padding-left: 0;
+  }
+
+  .market-observations-heading {
+    font-size: 2.3rem;
+  }
+
+  .market-observations-text {
+    font-size: 1.6rem;
+    width: 100%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .row {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 15rem;
+  }
+
+  /* SECTION COMMITMENT */
+
+  .commitment-heading {
+    padding-left: 3rem;
+  }
+
+  /* FOOTER */
+
+  .footer-text {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+/* TABLETS */
+
+@media (max-width: 58em) {
+  /* HERO SECTION */
+
+  .hero-description {
+    font-size: 1.8rem;
+
+    margin-bottom: 3rem;
+
+    max-width: 40rem;
+  }
+
+  .hero-img-coins-bg {
+    width: auto;
+    height: 95%;
+  }
+
+  .hero-img-coins {
+    width: auto;
+    height: 75%;
+
+    right: 4rem;
+    bottom: 5.5rem;
+  }
+
+  /* SECTION MARKET OBSERVATIONS */
+
+  .market-observations-text {
+    font-size: 1.6rem;
+  }
+}
+
+/* SMALLER TABLETS */
+
+@media (max-width: 46em) {
+  /* HERO SECTION */
+
+  .hero {
+    text-align: center;
+    padding-left: 0;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero-description {
+    font-size: 1.8rem;
+
+    margin-bottom: 3rem;
+
+    max-width: 80rem;
+  }
+
+  .hero-images {
+    display: none;
+  }
+
+  /* SECTION MARKET OBSERVATIONS */
+
+  .row {
+    grid-template-columns: 1fr;
+  }
+
+  /* SECTION COMMITMENT */
+  .commitment-heading {
+    font-size: 2rem;
+  }
+
+  .commitment {
+    font-size: 1.6rem;
+  }
+}
+
+/* PHONE */
+
+@media (max-width: 26em) {
+  /* HEADER */
+
+  .logo {
+    max-width: 16.1rem;
+    margin-top: 1.2rem;
+    margin-bottom: 4rem;
+    padding-left: 0;
+  }
+
+  /* HERO SECTION */
+
+  .hero-container {
+    margin: 0 1.5rem;
+
+    text-align: center;
+  }
+
+  .section-hero::after {
+    left: 0rem;
+    width: 100vw;
+  }
+
+  .hero {
+    padding-bottom: 0;
+  }
+
+  .hero-heading {
+    font-size: 2.5rem;
+    margin-bottom: 3.1rem;
+  }
+
+  .cta {
+    max-width: 100%;
+  }
+
+  .hero-cta {
+    margin: 0 auto;
+  }
+
+  .btn {
+    font-size: 1.8rem;
+    line-height: 0.8;
+    padding: 1rem 9.2rem;
+    margin: 0 auto 0.6rem auto;
+    white-space: nowrap;
+    max-width: 100%;
+  }
+
+  .risk-text {
+    font-size: 1rem;
+    margin-bottom: 1.4rem;
+  }
+
+  .hero-img-mobile {
+    display: flex;
+  }
+
+  .hero-img-mobile img {
+    flex-grow: 1;
+    margin-left: auto;
+  }
+
+  /* SECTION MARKET OBSERVATIONS */
+
+  .market-observations-description {
+    max-width: 30rem;
+    margin-bottom: 1rem;
+  }
+
+  .market-observations-heading {
+    font-size: 1.8rem;
+    line-height: 1.3;
+
+    margin-bottom: 2.2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 1.7rem;
+  }
+
+  .market-observations-text {
+    width: 30rem;
+    margin-bottom: 1rem;
+  }
+
+  .row {
+    max-width: 30rem;
+
+    grid-template-columns: 1fr;
+    row-gap: 0.8rem;
+  }
+
+  .trend {
+    margin-top: 1.2rem;
+    margin-bottom: 1rem;
+
+    gap: 1rem;
+
+    text-align: center;
+    line-height: 1.3;
+  }
+
+  .row-blue .trend img {
+    width: 40%;
+    height: 40%;
+  }
+
+  .row-white .trend img {
+    width: 70%;
+    height: 70%;
+  }
+
+  .trend-name span,
+  .trend-name {
+    font-size: 1.6rem;
+  }
+
+  .trend-text {
+    font-size: 1.6rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .trend__5 {
+    margin-top: 3rem;
+  }
+
+  .trend__7 .trend-name {
+    margin-top: 0;
+  }
+
+  .trend__8 .trend-name {
+    margin-top: 0;
+  }
+
+  /* SECTION CALL-TO-ACTION */
+
+  .cta-container {
+    margin: 1.4rem auto;
+  }
+
+  .cta-container .risk-text {
+    margin-bottom: 0;
+  }
+
+  /* SECTION COMMITMENT */
+
+  .commitment-container {
+    max-width: 30rem;
+    text-align: center;
+    gap: 1.8rem;
+  }
+
+  .commitment-heading {
+    font-size: 1.8rem;
+
+    margin-top: 3rem;
+    padding-left: 0;
+  }
+
+  .commitments {
+    grid-template-columns: 1fr;
+    row-gap: 3rem;
+  }
+
+  .commitment {
+    gap: 2.5rem;
+    font-size: 1.6rem;
+  }
+
+  .money-cloud-img {
+    display: none;
+  }
+
+  /* FOOTER */
+
+  .footer-text {
+    max-width: 30rem;
+
+    padding: 2.1rem 0.5rem;
+  }
+
+  /* SUBSCRIBE FORM */
+
+  .form-container {
+    max-width: 90%;
+    width: 90%;
+    padding: 2rem;
+  }
+
+  .close-form {
+    top: 0.5rem;
+    right: 0.5rem;
+    font-size: 1.5rem;
+  }
+
+  .cta-form input,
+  .cta-form select {
+    font-size: 1.4rem;
+  }
+
+  .btn-form {
+    font-size: 1.3rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    line-height: 1;
+    margin: 0;
+  }
+
+  .form-container p {
+    font-size: 1.2rem;
+  }
+}
